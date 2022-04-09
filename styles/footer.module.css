@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.social_icons {
+  display: flex;
+}
+
+.social_icons a {
+  font-size: 24px;
+  padding: 10px;
+}
