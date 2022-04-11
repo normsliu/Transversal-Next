@@ -14,7 +14,7 @@ const Hero = () => {
         <span style={{ color: "rgb(114, 115, 115)" }}>e</span>
         <span style={{ color: "rgb(114, 115, 115)" }}>r</span>
         <span style={{ color: "rgb(114, 115, 115)" }}>s</span>
-        <span style={{color:'rgb(114, 115, 115)'}}>a</span>
+        <span style={{ color: "rgb(114, 115, 115)" }}>a</span>
         <span style={{ color: "teal" }}>L</span>
       </h1>
 
@@ -24,23 +24,28 @@ const Hero = () => {
       </p>
 
       <div className={styles.grid}>
-        <a href="https://nextjs.org/docs" className={styles.card}>
-          <h2>Documentation &rarr;</h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <div className={styles.card}>
+          <h2>VISUALIZE &rarr;</h2>
+          <p>
+            Utilize our interactive dashboard to visualize real-time responses
+            with dynamic data visualization of metrics
+          </p>
+        </div>
 
-        <a href="https://nextjs.org/learn" className={styles.card}>
-          <h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
+        <div className={styles.card}>
+          <h2>GENERATE &rarr;</h2>
+          <p>
+            Auto-generate GraphQL schemas, quries, and mutations tailored to
+            your specific needs
+          </p>
+        </div>
 
-        <a
-          href="https://github.com/vercel/next.js/tree/canary/examples"
-          className={styles.card}
-        >
-          <h2>Examples &rarr;</h2>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
+        <div className={styles.card}>
+          <h2>EXPLORE &rarr;</h2>
+          <p>
+            Explore the endless possibilities of GraphQL by utlizing Transversal
+          </p>
+        </div>
       </div>
     </main>
   );
