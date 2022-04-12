@@ -9,18 +9,38 @@
   align-items: center;
 }
 
+.author_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .title {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
-.social_icons{
+.social_icons {
   display: flex;
+  align-items: center;
 }
 
 .social_icons a {
   font-size: 24px;
   padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
 }
