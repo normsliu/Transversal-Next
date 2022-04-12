@@ -16,21 +16,21 @@ const Footer = () => {
 
       <div className={styles.social_icons}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/oslabs-beta/transversal"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub />
         </a>
-        <a
+        {/* <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaTwitter />
-        </a>
+        </a> */}
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/company/transversalql/about/?viewAsMember=true"
           target="_blank"
           rel="noopener noreferrer"
         >
