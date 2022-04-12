@@ -15,3 +15,11 @@
   justify-content: space-around;
   align-items: center;
 }
+.social_icons{
+  display: flex;
+}
+
+.social_icons a {
+  font-size: 24px;
+  padding: 10px;
+}
