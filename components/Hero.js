@@ -28,22 +28,22 @@ const Hero = () => {
           <h2>VISUALIZE &rarr;</h2>
           <p>
             Utilize our interactive dashboard to visualize real-time responses
-            with dynamic data visualization of metrics
+            with dynamic data visualization of metrics.
           </p>
         </div>
 
         <div className={styles.card}>
           <h2>GENERATE &rarr;</h2>
           <p>
-            Auto-generate GraphQL schemas, quries, and mutations tailored to
-            your specific needs
+            Auto-generate GraphQL schemas, queries, and mutations tailored to
+            your specific needs.
           </p>
         </div>
 
         <div className={styles.card}>
           <h2>EXPLORE &rarr;</h2>
           <p>
-            Explore the endless possibilities of GraphQL by utlizing Transversal
+            Explore the endless possibilities of GraphQL by utilizing Transversal.
           </p>
         </div>
       </div>
