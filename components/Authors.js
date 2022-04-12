@@ -9,22 +9,24 @@ const Authors = () => {
         <h2 className={styles.title}>TransversaL Team</h2>
       </div>
       <div className={styles.container}>
-        <div className={styles.social_icons}>
-          <a
-            href="https://github.com/han900204"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/han900204/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-          Han
+        <div>
+          <div className={styles.social_icons}>
+            <a
+              href="https://github.com/han900204"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/han900204/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            Han
+          </div>
         </div>
         <div className={styles.social_icons}>
           <a
@@ -40,9 +42,8 @@ const Authors = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin />
-          Dan
+            Dan
           </a>
-        
         </div>
         <div className={styles.social_icons}>
           <a
@@ -60,7 +61,6 @@ const Authors = () => {
             <FaLinkedin />
             Norman
           </a>
-       
         </div>
         <div className={styles.social_icons}>
           <a
@@ -77,7 +77,6 @@ const Authors = () => {
           >
             <FaLinkedin />
           </a>
-     
         </div>
       </div>
     </section>
