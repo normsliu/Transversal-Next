@@ -1,5 +1,5 @@
 .navbar {
-	background-color: #202525;
+	background-color: #2f3636;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,7 +33,7 @@
 .navitem {
 	margin-right: 4rem;
 	font-family: Verdana,Geneva,sans-serif; 
-	color: #202525;
+	color: #2f3636;
 
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/hero.module.css";
+import { ImSpinner10, ImEqualizer, ImIcoMoon } from  "react-icons/im";
 
 const Hero = () => {
   return (
@@ -20,12 +21,12 @@ const Hero = () => {
 
       <p className={styles.description}>
         Visualize your data, auto-generate schemas, and explore the
-        possibilities of GraphlQL
+        possibilities of GraphQL
       </p>
 
       <div className={styles.grid}>
         <div className={styles.card}>
-          <h2>VISUALIZE &rarr;</h2>
+          <h2> <ImSpinner10/>   VISUALIZE </h2>
           <p>
             Utilize our interactive dashboard to visualize real-time responses
             with dynamic data visualization of metrics.
@@ -33,7 +34,7 @@ const Hero = () => {
         </div>
 
         <div className={styles.card}>
-          <h2>GENERATE &rarr;</h2>
+          <h2> <ImEqualizer/>   GENERATE </h2>
           <p>
             Auto-generate GraphQL schemas, queries, and mutations tailored to
             your specific needs.
@@ -41,7 +42,7 @@ const Hero = () => {
         </div>
 
         <div className={styles.card}>
-          <h2>EXPLORE &rarr;</h2>
+          <h2><ImIcoMoon/>   EXPLORE </h2>
           <p>
             Explore the endless possibilities of GraphQL by utilizing Transversal.
           </p>
