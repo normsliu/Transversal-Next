@@ -3,20 +3,24 @@ import styles from "../styles/hero.module.css";
 import { ImSpinner10, ImEqualizer, ImIcoMoon } from  "react-icons/im";
 
 const Hero = () => {
+
+  const upperCase = { color: "teal" }
+  const lowerCase = { color: "rgb(114, 115, 115)"}
+  
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>
-        <span style={{ color: "teal" }}>T</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>r</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>a</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>n</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>s</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>v</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>e</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>r</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>s</span>
-        <span style={{ color: "rgb(114, 115, 115)" }}>a</span>
-        <span style={{ color: "teal" }}>L</span>
+        <span style={upperCase}>T</span>
+        <span style={lowerCase}>r</span>
+        <span style={lowerCase}>a</span>
+        <span style={lowerCase}>n</span>
+        <span style={lowerCase}>s</span>
+        <span style={lowerCase}>v</span>
+        <span style={lowerCase}>e</span>
+        <span style={lowerCase}>r</span>
+        <span style={lowerCase}>s</span>
+        <span style={lowerCase}>a</span>
+        <span style={upperCase}>L</span>
       </h1>
 
       <p className={styles.description}>
