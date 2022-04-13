@@ -10,7 +10,7 @@ const Authors = () => {
       <div className={styles.container}>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/han.jpg" width={175} height={175} />
+            <Image src="/han.jpg" width={200} height={200} />
           </div>
           <div>Han Kim</div>
           <div className={styles.social_icons}>
@@ -32,7 +32,7 @@ const Authors = () => {
         </div>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/dan.jpg" width={175} height={175}  />
+            <Image src="/dan.jpg" width={200} height={200}  />
           </div>
           <div>Daniel Forrester</div>
           <div className={styles.social_icons}>
@@ -54,7 +54,7 @@ const Authors = () => {
         </div>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/norm.jpg" width={175} height={175} />
+            <Image src="/norm.jpg" width={200} height={200} />
           </div>
           <div>Norman Lui</div>
           <div className={styles.social_icons}>
@@ -76,7 +76,7 @@ const Authors = () => {
         </div>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/kevin.jpg" width={175} height={175} />
+            <Image src="/kevin.jpg" width={200} height={200} />
           </div>
           <div>Kevin Mun</div>
           <div className={styles.social_icons}>
