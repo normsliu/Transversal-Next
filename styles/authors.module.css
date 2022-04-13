@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Slab";
   font-size: 17px;
 }
 
@@ -16,12 +16,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
@@ -35,7 +36,7 @@
   padding: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .container {
     flex-direction: column;
     justify-content: space-around;
@@ -43,13 +44,11 @@
   }
 
   .title {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 }
 
-
-
 .picture {
- border-radius: 50%;
- overflow: hidden;
+  border-radius: 50%;
+  overflow: hidden;
 }

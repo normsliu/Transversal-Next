@@ -32,7 +32,7 @@ const Authors = () => {
         </div>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/dan.jpg" width={175} height={175}  />
+            <Image src="/dan.jpg" width={175} height={175} />
           </div>
           <div>Daniel Forrester</div>
           <div className={styles.social_icons}>
@@ -56,7 +56,7 @@ const Authors = () => {
           <div className={styles.picture}>
             <Image src="/norm.jpg" width={175} height={175} />
           </div>
-          <div>Norman Lui</div>
+          <div>Norman Liu</div>
           <div className={styles.social_icons}>
             <a
               href="https://github.com/normsliu"
