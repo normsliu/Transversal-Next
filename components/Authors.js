@@ -1,16 +1,19 @@
 import React from "react";
 import styles from "../styles/authors.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Image from "next/image";
 
 const Authors = () => {
   return (
     <section>
-        <h2 className={styles.title}>TransversaL Team</h2>
+      <h2 className={styles.title}>TransversaL Team</h2>
       <div className={styles.container}>
         <div className={styles.author_container}>
-          <div>PIC</div>
+          <div className={styles.picture}>
+            <Image src="/han.jpg" width={175} height={175} />
+          </div>
+          <div>Han Kim</div>
           <div className={styles.social_icons}>
-            Han
             <a
               href="https://github.com/han900204"
               target="_blank"
@@ -28,9 +31,11 @@ const Authors = () => {
           </div>
         </div>
         <div className={styles.author_container}>
-          <div>PIC</div>
+          <div className={styles.picture}>
+            <Image src="/dan.jpg" width={175} height={175}  />
+          </div>
+          <div>Daniel Forrester</div>
           <div className={styles.social_icons}>
-            Dan
             <a
               href="https://github.com/daniel-forrester"
               target="_blank"
@@ -48,9 +53,11 @@ const Authors = () => {
           </div>
         </div>
         <div className={styles.author_container}>
-          <div>PIC</div>
+          <div className={styles.picture}>
+            <Image src="/norm.jpg" width={175} height={175} />
+          </div>
+          <div>Norman Lui</div>
           <div className={styles.social_icons}>
-            Norman
             <a
               href="https://github.com/normsliu"
               target="_blank"
@@ -68,9 +75,11 @@ const Authors = () => {
           </div>
         </div>
         <div className={styles.author_container}>
-          <div>PIC</div>
+          <div className={styles.picture}>
+            <Image src="/kevin.jpg" width={175} height={175} />
+          </div>
+          <div>Kevin Mun</div>
           <div className={styles.social_icons}>
-            Kevin
             <a
               href="https://github.com/kmun94"
               target="_blank"
