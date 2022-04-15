@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Authors from "./Authors";
 
+
 const Layout = ({ children }) => {
   return (
     <>

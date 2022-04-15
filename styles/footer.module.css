@@ -5,6 +5,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #2f3636;
+  color: white;
 }
 
 .footer_logo {

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { ImFileText2 } from "react-icons/im"
 import styles from "../styles/footer.module.css";
 
 const Footer = () => {
@@ -35,6 +36,13 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/transversalql/about/?viewAsMember=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ImFileText2 />
         </a>
       </div>
     </footer>

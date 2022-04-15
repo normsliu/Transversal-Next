@@ -5,21 +5,20 @@ import { ImSpinner10, ImEqualizer, ImIcoMoon } from  "react-icons/im";
 const Hero = () => {
 
   const upperCase = { color: "teal" }
-  const lowerCase = { color: "rgb(114, 115, 115)"}
-  
+
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>
         <span style={upperCase}>T</span>
-        <span style={lowerCase}>r</span>
-        <span style={lowerCase}>a</span>
-        <span style={lowerCase}>n</span>
-        <span style={lowerCase}>s</span>
-        <span style={lowerCase}>v</span>
-        <span style={lowerCase}>e</span>
-        <span style={lowerCase}>r</span>
-        <span style={lowerCase}>s</span>
-        <span style={lowerCase}>a</span>
+        <span className={styles.gradient_text}>r</span>
+        <span className={styles.gradient_text}>a</span>
+        <span className={styles.gradient_text}>n</span>
+        <span className={styles.gradient_text}>s</span>
+        <span className={styles.gradient_text}>v</span>
+        <span className={styles.gradient_text}>e</span>
+        <span className={styles.gradient_text}>r</span>
+        <span className={styles.gradient_text}>s</span>
+        <span className={styles.gradient_text}>a</span>
         <span style={upperCase}>L</span>
       </h1>
 

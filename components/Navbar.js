@@ -22,7 +22,8 @@ const Navbar = () => {
               ? styles.navmenu
               : styles.navmenu + " " + styles.active
           }
-        ><li className={styles.navitem}>
+        >
+          <li className={styles.navitem}>
         <Link href="">
           <a
             className={
@@ -51,6 +52,7 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
+         
           
         </ul>
         <button

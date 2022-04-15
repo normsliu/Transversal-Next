@@ -1,18 +1,25 @@
 .main {
-  min-height: 100vh;
+  height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
+  background-color: #aee1f9;
+background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+border-radius:25px;
+  margin: 9rem;
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: center;
-  flex: 1;
   background-color: aqua;
 }
 
@@ -20,7 +27,6 @@
   display: flex;
   margin: 1rem;
   padding: 1.5rem;
-  flex: 2;
   justify-content: center;
   align-items: center;
   background-color: antiquewhite;
@@ -39,7 +45,7 @@
   color: rgb(166, 168, 168);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .main {
     width: 100%;
     flex-direction: column;

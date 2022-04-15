@@ -19,7 +19,9 @@ const Demo = ({ title, imgStart, snippet, blurb }) => {
           height={450}
           width={550}
         />
+        
       </div>
+      
     </main>
   );
 };
