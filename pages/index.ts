@@ -6,15 +6,13 @@ import Demo from "../components/Demo";
 export default function Home() {
   return (
     <>
-    
       <Head>
         <title>TransversaL | Home</title>
         <meta name="keywords" content="transversaL" />
       </Head>
-      
-        <Hero />
-        <Demo />
-    
+
+      <Hero />
+      <Demo />
     </>
   );
 }
