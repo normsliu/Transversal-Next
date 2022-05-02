@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { ImFileText2 } from "react-icons/im"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { ImFileText2 } from "react-icons/im";
 import styles from "../styles/footer.module.css";
 
 const Footer = () => {

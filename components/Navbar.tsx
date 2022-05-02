@@ -24,20 +24,20 @@ const Navbar = () => {
           }
         >
           <li className={styles.navitem}>
-        <Link href="">
-          <a
-            className={
-              isOpen === false
-                ? styles.navlink
-                : styles.navlink + " " + styles.active
-            }
-            onClick={openMenu}
-          >
-            {" "}
-            <ImPlay2 /> Demo
-          </a>
-        </Link>
-      </li>
+            <Link href="">
+              <a
+                className={
+                  isOpen === false
+                    ? styles.navlink
+                    : styles.navlink + " " + styles.active
+                }
+                onClick={openMenu}
+              >
+                {" "}
+                <ImPlay2 /> Demo
+              </a>
+            </Link>
+          </li>
           <li className={styles.navitem}>
             <Link href="/documentation">
               <a
@@ -52,8 +52,6 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-         
-          
         </ul>
         <button
           className={

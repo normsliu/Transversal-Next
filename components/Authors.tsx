@@ -32,7 +32,7 @@ const Authors = () => {
         </div>
         <div className={styles.author_container}>
           <div className={styles.picture}>
-            <Image src="/dan.jpg" width={200} height={200}  />
+            <Image src="/dan.jpg" width={200} height={200} />
           </div>
           <div className={styles.name}>Daniel Forrester</div>
           <div className={styles.social_icons}>
