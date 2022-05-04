@@ -9,7 +9,7 @@ interface DemoProps {
   blurb: String;
 }
 
-const Demo = ({ title, imgStart, snippet, blurb }: DemoProps) => {
+const Demo = ({ title, imgStart, snippet, blurb }: DemoProps): JSX.Element => {
   return (
     <main className={styles.main}>
       <div className={styles.card}>

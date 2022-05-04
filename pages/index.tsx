@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Demo from "../components/Demo";
 import React from "react";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <Head>

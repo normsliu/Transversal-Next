@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/layout.module.css";
 import React from "react";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <div className={styles.container}>
       <Layout>

@@ -4,7 +4,7 @@ import styles from "../styles/navbar.module.css";
 import Image from "next/image";
 import { ImFileText2, ImPlay2 } from "react-icons/im";
 
-const Navbar = () => {
+const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
 

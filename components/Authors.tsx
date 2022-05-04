@@ -3,7 +3,7 @@ import styles from "../styles/authors.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 
-const Authors = () => {
+const Authors = (): JSX.Element => {
   return (
     <section>
       <h2 className={styles.title}>Meet the Team</h2>
@@ -56,7 +56,7 @@ const Authors = () => {
           <div className={styles.picture}>
             <Image src="/norm.jpg" width={200} height={200} />
           </div>
-          <div className={styles.name}>Norman Lui </div>
+          <div className={styles.name}>Norman Liu </div>
           <div className={styles.social_icons}>
             <a
               href="https://github.com/normsliu"
