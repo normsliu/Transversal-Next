@@ -2,15 +2,19 @@ import React from "react";
 import styles from "../styles/demo.module.css";
 import Image from "next/image";
 
-const Demo = ({ title, imgStart, snippet, blurb }) => {
+interface DemoProps {
+  title: String;
+  imgStart: Boolean;
+  snippet: String;
+  blurb: String;
+}
+
+const Demo = ({ title, imgStart, snippet, blurb }: DemoProps): JSX.Element => {
   return (
     <main className={styles.main}>
       <div className={styles.card}>
-        <h2>Demo</h2>
-        <p>
-          blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb
-          blurb
-        </p>
+        <h2>{title}</h2>
+        <p>{blurb}</p>
       </div>
       <div className={styles.card_img}>
         <Image
@@ -19,9 +23,7 @@ const Demo = ({ title, imgStart, snippet, blurb }) => {
           height={450}
           width={550}
         />
-        
       </div>
-      
     </main>
   );
 };
