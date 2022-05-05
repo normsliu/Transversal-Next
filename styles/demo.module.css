@@ -1,46 +1,81 @@
-.main {
-  height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
+.container {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.mainContainer {
+  height: 200vh;
+  padding: 3rem 0;
+  display: block;
+  margin-bottom: 3rem;
   background-color: #aee1f9;
   background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
-
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
-  margin: 9rem;
+  margin: 8rem;
 }
 
-.card {
-  width: 100%;
-  margin: 1rem;
+.row {
+  display: flex;
+  flex-basis: 45%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+
+.cardLeft {
+  max-width: 450px;
+  min-width: 350px;
+  margin: 2rem;
+  margin-left: 4rem;
   padding: 1.5rem;
-  text-align: center;
-  background-color: aqua;
+  margin-left: 4rem;
+}
+.cardRight {
+  max-width: 450px;
+  min-width: 350px;
+  margin: 2rem;
+  margin-right: 4rem;
+  padding: 1.5rem;
+  margin-left: 4rem;
 }
 
 .card_img {
   display: flex;
-  width: 100%;
-  margin: 1rem;
+  margin: 2rem;
   padding: 1.5rem;
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
+
 }
 
-.card h2 {
+.cardLeft h3 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
   color: teal;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
-.card p {
+.cardLeft h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: rgb(166, 168, 168);
+}
+
+.cardRight h3 {
+  margin: 0 0 1rem 0;
+  color: teal;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cardRight h1 {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -48,9 +83,9 @@
 }
 
 @media screen and (max-width: 900px) {
-  .main {
+  .mainContainer {
     /* width: 80%; */
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 }
